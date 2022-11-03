@@ -1,0 +1,23 @@
+{
+  "name": "zesty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "unit-test": "mocha test/unit-test",
+    "end-to-end": "mocha test/end-to-end"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1246.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0",
+    "mockery": "^2.1.0"
+  }
+}
